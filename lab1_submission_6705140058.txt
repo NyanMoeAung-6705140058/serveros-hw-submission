@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140058
+timestamp: 2026-09-01T16:30:49Z
+hostname: ubuntu
+---[user: getent passwd]---
+pim983:x:1004:1008::/home/pim983:/bin/sh
+---[group: getent group]---
+research:x:1007:pim983
+---[user-in-group: id]---
+uid=1004(pim983) gid=1008(pim983) groups=1008(pim983),1007(research)
+---[file stat: home file mode/owner]---
+/home/pim983/report_3428.txt mode=644 owner=pim983 group=research
+---[sshd effective config]---
+port 22
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 4a8a7b0247367b4cab0ccf00b39e48ec338dc1df4228d7e7ed84fb1cca0ba47c
+===END LAB1 SUBMISSION===
